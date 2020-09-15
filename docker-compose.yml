@@ -3,4 +3,17 @@ services:
   db:
     image: mongo
   backend:
-    build: .
+    build:
+      context: .
+      dockerfile: docker/backend.dockerfile
+    depends_on:
+      - db
+  web:
+    build:
+      context: .
+      dockerfile: docker/frontend.dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+
