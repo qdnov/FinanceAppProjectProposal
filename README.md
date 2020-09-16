@@ -1,4 +1,4 @@
-# FinanceAppProjectProposal
+# Finance App
 
 ## Project Abstract
   The goal of this project will be to create a full stack finance suite, primarily for personal usage. The app will include a database, a web front end, and a backend which handles the logic. The goal is to create a project with a broad scope, allowing for additional features if time permits and the group agrees. The base feature set will include a budgeting helper which allows you to track and mark expenses in categories as well as analyze expenses, a net worth tracker which allows you to input and track assets and liabilities, and then some financial tools such as a compound interest calculator and a discounted cashflow calculator.
